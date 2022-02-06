@@ -18,38 +18,38 @@ mkdir src
 touch src/index.html
 ```
 
-### Install Tailwind CSS
-#### Terminal
+#### Install Tailwind CSS
+##### Terminal
 
 ```bash
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
 ```
 
-### Configure your template paths
-#### tailwind.config.js
+#### Configure your template paths
+##### tailwind.config.js
 ```bash
   content: [
     "./src/**/*.{html,js,ts,jsx,tsx}",
   ],
 ```
 
-### Add the Tailwind directives to your CSS
-#### style.css
+#### Add the Tailwind directives to your CSS
+##### style.css
 ```bash
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 ```
 
-### Start your build process
-#### Terminal
+#### Start your build process
+##### Terminal
 ```bash
 npx parcel src/index.html
 ```
 
-### Start using Tailwind in your project
-#### index.html
+#### Start using Tailwind in your project
+##### index.html
 ```bash
 <!doctype html>
 <html>
